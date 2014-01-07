@@ -1,7 +1,10 @@
 Remove Trailing Commas
 ======================
 
-This is a tool to remove trailing commas within array literal and object literal expressions in your Javascripts.
+This is a tool to remove trailing commas within array literal and object literal expressions in your Javascripts. Trailing commas are problematic because IE 7 and below treat them differently from newer browsers, in specifically
+
+* For arrays literals, IE 7 appends an extra undefined element at the end of the array, where as other browser do not.
+* For object literals, IE 7 fails to parse the script whereas other browser allow it.
 
 ## Install
 
