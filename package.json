@@ -1,5 +1,5 @@
 {
-  "name": "trailing_comma_remover",
+  "name": "remove_trailing_commas",
   "version": "0.0.0",
   "description": "Removes trailing commas in your JavaScript.",
   "main": "index.js",
