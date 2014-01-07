@@ -1,0 +1,21 @@
+{
+  "name": "trailing_comma_remover",
+  "version": "0.0.0",
+  "description": "Removes trailing commas in your JavaScript.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.9",
+    "esprima": "~1.0.4",
+    "falafel": "~0.3.1",
+    "glob": "~3.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Toby Ho",
+  "license": "MIT"
+}
