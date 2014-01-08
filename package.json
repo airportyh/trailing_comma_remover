@@ -1,5 +1,5 @@
 {
-  "name": "remove_trailing_commas",
+  "name": "trailing_comma_remover",
   "version": "0.0.0",
   "description": "Removes trailing commas in your JavaScript.",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "remove_trailing_commas": "cli.js"
+    "trailing_comma_remover": "cli.js"
   },
   "keywords": [
     "JavaScript"
