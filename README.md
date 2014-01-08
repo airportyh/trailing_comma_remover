@@ -14,20 +14,20 @@ This is a tool to remove trailing commas within array literal and object literal
 
 To perform the conversion for all `.js` files within the current directory
 
-    remove_trailing_commas
+    trailing_comma_remover
 
 To perform the conversion for the specified directory
 
-    remove_trailing_commas some_dir
+    trailing_comma_remover some_dir
 
 To perform the conversion for a single file
 
-    remove_trailing_commas foobar.js
+    trailing_comma_remover foobar.js
 
 ## Use As a Module
 
 ``` js
-var removeTrailingCommas = require('remove_trailing_commas');
+var removeTrailingCommas = require('trailing_comma_remover');
 
 var code = removeTrailingCommas('[1, 2, 3,]')
 
